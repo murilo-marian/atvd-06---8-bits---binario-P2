@@ -48,6 +48,6 @@ pixels, bits, width, height = readImage(originalIMG)
 limiar = 40
 convertedPixelsFixed, convertedPixelsDynamic = convertBits(pixels, limiar, width, height)
 
-output = "binary.pbm"
+output = "binary.pgm"
 
 saveIMG(output, convertedPixelsFixed, width, height)
